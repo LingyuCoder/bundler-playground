@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "test:success": "echo '{}' > src/package.json && rspack build && node dist/main.js",
+    "test:fail": "echo '{\"sideEffects\":[\"**/*.css\"]}' > src/package.json && rspack build && node dist/main.js"
+  }
+}
