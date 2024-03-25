@@ -1,12 +1,6 @@
 {
-  "name": "custom-runtime-module",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "rspack-old-tree-shaking-sideeffects",
   "scripts": {
     "start": "webpack build && node dist/index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
