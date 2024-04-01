@@ -1,0 +1,2565 @@
+{
+  "hash": "47dd8eae0eb83944ee2e",
+  "version": "5.90.1",
+  "time": 68,
+  "builtAt": 1711955276255,
+  "publicPath": "",
+  "outputPath": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/dist",
+  "assetsByChunkName": {
+    "a": [
+      "a.js"
+    ],
+    "b": [
+      "b.js"
+    ],
+    "runtime": [
+      "runtime.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "runtime.js",
+      "size": 6955,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 6955
+      },
+      "chunkNames": [
+        "runtime"
+      ],
+      "chunkIdHints": [
+        "c"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "runtime"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "b.js",
+      "size": 1948,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 1948
+      },
+      "chunkNames": [
+        "b"
+      ],
+      "chunkIdHints": [
+        "b"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "b"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "chunk_js.js",
+      "size": 865,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 865
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "chunk_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "a.js",
+      "size": 736,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 736
+      },
+      "chunkNames": [
+        "a"
+      ],
+      "chunkIdHints": [
+        "a"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "a"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: a) (name: a)",
+      "size": 36,
+      "sizes": {
+        "javascript": 36
+      },
+      "names": [
+        "a"
+      ],
+      "idHints": [
+        "a"
+      ],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "a.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "91766a87c31b9bc00826",
+      "childrenByOrder": {},
+      "id": "a",
+      "siblings": [
+        "b",
+        "chunk_js",
+        "runtime"
+      ],
+      "parents": [
+        "b"
+      ],
+      "children": [
+        "b"
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1,
+          "sizes": {
+            "javascript": 1
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryA.js",
+          "name": "./entryA.js",
+          "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryA.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 67,
+          "issuerId": null,
+          "chunks": [
+            "a"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./entryA",
+              "loc": "a",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": ""
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 35,
+          "sizes": {
+            "javascript": 35
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/moduleA.js",
+          "name": "./moduleA.js",
+          "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/moduleA.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+          "issuerName": "./chunk.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "name": "./entryB.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "name": "./chunk.js",
+              "id": 632
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 956,
+          "issuerId": 632,
+          "chunks": [
+            "a"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "module": "./chunk.js",
+              "moduleName": "./chunk.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "resolvedModule": "./chunk.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./moduleA",
+              "loc": "1:0-47",
+              "moduleId": 632,
+              "resolvedModuleId": 632
+            },
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "module": "./chunk.js",
+              "moduleName": "./chunk.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "resolvedModule": "./chunk.js",
+              "type": "harmony export imported specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./moduleA",
+              "loc": "1:0-47",
+              "moduleId": 632,
+              "resolvedModuleId": 632
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export default \"This is module a\";\n"
+        }
+      ],
+      "origins": [
+        {
+          "module": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+          "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+          "moduleName": "./entryB.js",
+          "loc": "5:45-62",
+          "request": "./chunk",
+          "moduleId": null
+        },
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "a",
+          "request": "./entryA"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: b) (name: b)",
+      "size": 570,
+      "sizes": {
+        "javascript": 570
+      },
+      "names": [
+        "b"
+      ],
+      "idHints": [
+        "b"
+      ],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "b.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "1984b8fdf52d461525d6",
+      "childrenByOrder": {},
+      "id": "b",
+      "siblings": [
+        "a",
+        "chunk_js",
+        "runtime"
+      ],
+      "parents": [
+        "a",
+        "b",
+        "runtime"
+      ],
+      "children": [
+        "a",
+        "b",
+        "chunk_js",
+        "runtime"
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 535,
+          "sizes": {
+            "javascript": 535
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js|18f240ebb4cf01706f74b7137b5cff2e",
+          "name": "./entryB.js + 2 modules",
+          "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 728,
+          "chunks": [
+            "b"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./entryB",
+              "loc": "b",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 451,
+              "sizes": {
+                "javascript": 451
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "name": "./entryB.js",
+              "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 3,
+              "postOrderIndex": 3,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 4:0-15:3"
+              ],
+              "depth": 0,
+              "source": "import fs from \"fs\";\nimport path from \"path\";\n\nit(\"should place the module correctly\", async () => {\n\tconst { moduleA, moduleB, moduleC } = await import(\"./chunk\");\n\texpect(fs.readFileSync(path.resolve(__dirname, \"a.js\"), \"utf-8\")).toContain(\n\t\tmoduleA\n\t);\n\texpect(fs.readFileSync(path.resolve(__dirname, \"b.js\"), \"utf-8\")).toContain(\n\t\tmoduleB\n\t);\n\texpect(\n\t\tfs.readFileSync(path.resolve(__dirname, \"runtime.js\"), \"utf-8\")\n\t).toContain(moduleC);\n});\n"
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/dynamic",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "external node-commonjs \"fs\"",
+              "name": "external \"fs\"",
+              "nameForCondition": null,
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "issuerName": "./entryB.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "name": "./entryB.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "module": "./entryB.js",
+                  "moduleName": "./entryB.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "resolvedModule": "./entryB.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "fs",
+                  "loc": "1:0-20",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "module": "./entryB.js",
+                  "moduleName": "./entryB.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "resolvedModule": "./entryB.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "fs",
+                  "loc": "6:8-23",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "module": "./entryB.js",
+                  "moduleName": "./entryB.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "resolvedModule": "./entryB.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "fs",
+                  "loc": "9:8-23",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "module": "./entryB.js",
+                  "moduleName": "./entryB.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "resolvedModule": "./entryB.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "fs",
+                  "loc": "13:2-17",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: List of module exports is dynamic (other exports: maybe provided (runtime-defined) and maybe used in runtime (runtime-defined))"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/dynamic",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "external node-commonjs \"path\"",
+              "name": "external \"path\"",
+              "nameForCondition": null,
+              "index": 3,
+              "preOrderIndex": 3,
+              "index2": 2,
+              "postOrderIndex": 2,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "issuerName": "./entryB.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "name": "./entryB.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "module": "./entryB.js",
+                  "moduleName": "./entryB.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "resolvedModule": "./entryB.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "path",
+                  "loc": "2:0-24",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "module": "./entryB.js",
+                  "moduleName": "./entryB.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "resolvedModule": "./entryB.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "path",
+                  "loc": "6:24-36",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "module": "./entryB.js",
+                  "moduleName": "./entryB.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "resolvedModule": "./entryB.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "path",
+                  "loc": "9:24-36",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "module": "./entryB.js",
+                  "moduleName": "./entryB.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "resolvedModule": "./entryB.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "path",
+                  "loc": "13:18-30",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: List of module exports is dynamic (other exports: maybe provided (runtime-defined) and maybe used in runtime (runtime-defined))"
+              ],
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 35,
+          "sizes": {
+            "javascript": 35
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/moduleB.js",
+          "name": "./moduleB.js",
+          "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/moduleB.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+          "issuerName": "./chunk.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "name": "./entryB.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "name": "./chunk.js",
+              "id": 632
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 184,
+          "issuerId": 632,
+          "chunks": [
+            "b"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "module": "./chunk.js",
+              "moduleName": "./chunk.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "resolvedModule": "./chunk.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./moduleB",
+              "loc": "2:0-47",
+              "moduleId": 632,
+              "resolvedModuleId": 632
+            },
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "module": "./chunk.js",
+              "moduleName": "./chunk.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "resolvedModule": "./chunk.js",
+              "type": "harmony export imported specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./moduleB",
+              "loc": "2:0-47",
+              "moduleId": 632,
+              "resolvedModuleId": 632
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export default \"This is module b\";\n"
+        }
+      ],
+      "origins": [
+        {
+          "module": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+          "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+          "moduleName": "./entryB.js",
+          "loc": "5:45-62",
+          "request": "./chunk",
+          "moduleId": null
+        },
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "b",
+          "request": "./entryB"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 144,
+      "sizes": {
+        "javascript": 144
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "chunk_js.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "b760affb43fb8d6576f6",
+      "childrenByOrder": {},
+      "id": "chunk_js",
+      "siblings": [
+        "a",
+        "b",
+        "runtime"
+      ],
+      "parents": [
+        "b"
+      ],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 144,
+          "sizes": {
+            "javascript": 144
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+          "name": "./chunk.js",
+          "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 7,
+          "postOrderIndex": 7,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+          "issuerName": "./entryB.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "name": "./entryB.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 632,
+          "issuerId": null,
+          "chunks": [
+            "chunk_js"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js|18f240ebb4cf01706f74b7137b5cff2e",
+              "module": "./entryB.js + 2 modules",
+              "moduleName": "./entryB.js + 2 modules",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "resolvedModule": "./entryB.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./chunk",
+              "loc": "5:45-62",
+              "moduleId": 728,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "moduleA",
+            "moduleB",
+            "moduleC"
+          ],
+          "providedExports": [
+            "moduleA",
+            "moduleB",
+            "moduleC"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./moduleA.js: Module ./moduleA.js is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) a)",
+            "ModuleConcatenation bailout: Cannot concat with ./moduleB.js: Module ./moduleB.js is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) b)",
+            "ModuleConcatenation bailout: Cannot concat with ./moduleC.js: Module ./moduleC.js is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) runtime)"
+          ],
+          "depth": 1,
+          "source": "export { default as moduleA } from \"./moduleA\";\nexport { default as moduleB } from \"./moduleB\";\nexport { default as moduleC } from \"./moduleC\";\n"
+        }
+      ],
+      "origins": [
+        {
+          "module": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+          "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+          "moduleName": "./entryB.js",
+          "loc": "5:45-62",
+          "request": "./chunk",
+          "moduleId": null
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "reason": "split chunk (cache group: c) (name: runtime)",
+      "size": 3460,
+      "sizes": {
+        "javascript": 35,
+        "runtime": 3425
+      },
+      "names": [
+        "runtime"
+      ],
+      "idHints": [
+        "c"
+      ],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "runtime.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "4755304a9fef79a4f716",
+      "childrenByOrder": {},
+      "id": "runtime",
+      "siblings": [
+        "a",
+        "b",
+        "chunk_js"
+      ],
+      "parents": [
+        "b"
+      ],
+      "children": [
+        "b"
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 35,
+          "sizes": {
+            "javascript": 35
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/moduleC.js",
+          "name": "./moduleC.js",
+          "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/moduleC.js",
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+          "issuerName": "./chunk.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "name": "./entryB.js",
+              "id": null
+            },
+            {
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "name": "./chunk.js",
+              "id": 632
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 376,
+          "issuerId": 632,
+          "chunks": [
+            "runtime"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "module": "./chunk.js",
+              "moduleName": "./chunk.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "resolvedModule": "./chunk.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./moduleC",
+              "loc": "3:0-47",
+              "moduleId": 632,
+              "resolvedModuleId": 632
+            },
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "module": "./chunk.js",
+              "moduleName": "./chunk.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "resolvedModule": "./chunk.js",
+              "type": "harmony export imported specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./moduleC",
+              "loc": "3:0-47",
+              "moduleId": 632,
+              "resolvedModuleId": 632
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export default \"This is module c\";\n"
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 267,
+          "sizes": {
+            "runtime": 267
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/compat get default export",
+          "name": "webpack/runtime/compat get default export",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "runtime"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "runtime"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 326,
+          "sizes": {
+            "runtime": 326
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/ensure chunk",
+          "name": "webpack/runtime/ensure chunk",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "runtime"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 205,
+          "sizes": {
+            "runtime": 205
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get javascript chunk filename",
+          "name": "webpack/runtime/get javascript chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "runtime"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "runtime"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 1857,
+          "sizes": {
+            "runtime": 1857
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/readFile chunk loading",
+          "name": "webpack/runtime/readFile chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "runtime"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 374,
+          "sizes": {
+            "runtime": 374
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/startup entrypoint",
+          "name": "webpack/runtime/startup entrypoint",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "runtime"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+          "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+          "moduleName": "./entryB.js",
+          "loc": "5:45-62",
+          "request": "./chunk",
+          "moduleId": null
+        },
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "a",
+          "request": "./entryA"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "code generated modules",
+      "codeGenerated": true,
+      "children": [
+        {
+          "type": "runtime modules",
+          "moduleType": "runtime",
+          "children": [
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 267,
+              "sizes": {
+                "runtime": 267
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "runtime"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 308,
+              "sizes": {
+                "runtime": 308
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "runtime"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 326,
+              "sizes": {
+                "runtime": 326
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/ensure chunk",
+              "name": "webpack/runtime/ensure chunk",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "runtime"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 205,
+              "sizes": {
+                "runtime": 205
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/get javascript chunk filename",
+              "name": "webpack/runtime/get javascript chunk filename",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "runtime"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 88,
+              "sizes": {
+                "runtime": 88
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "runtime"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 1857,
+              "sizes": {
+                "runtime": 1857
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/readFile chunk loading",
+              "name": "webpack/runtime/readFile chunk loading",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "runtime"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 374,
+              "sizes": {
+                "runtime": 374
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/startup entrypoint",
+              "name": "webpack/runtime/startup entrypoint",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "runtime"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "size": 3425,
+          "sizes": {
+            "runtime": 3425
+          }
+        },
+        {
+          "type": "built modules",
+          "built": true,
+          "children": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 1,
+              "sizes": {
+                "javascript": 1
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryA.js",
+              "name": "./entryA.js",
+              "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryA.js",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 67,
+              "issuerId": null,
+              "chunks": [
+                "a"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./entryA",
+                  "loc": "a",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": ""
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/esm",
+              "layer": null,
+              "size": 535,
+              "sizes": {
+                "javascript": 535
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js|18f240ebb4cf01706f74b7137b5cff2e",
+              "name": "./entryB.js + 2 modules",
+              "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 3,
+              "postOrderIndex": 3,
+              "cacheable": false,
+              "optional": false,
+              "orphan": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 728,
+              "chunks": [
+                "b"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./entryB",
+                  "loc": "b",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 0,
+              "modules": [
+                {
+                  "type": "module",
+                  "moduleType": "javascript/auto",
+                  "layer": null,
+                  "size": 451,
+                  "sizes": {
+                    "javascript": 451
+                  },
+                  "built": true,
+                  "codeGenerated": false,
+                  "buildTimeExecuted": false,
+                  "cached": false,
+                  "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "name": "./entryB.js",
+                  "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "index": 1,
+                  "preOrderIndex": 1,
+                  "index2": 3,
+                  "postOrderIndex": 3,
+                  "cacheable": true,
+                  "optional": false,
+                  "orphan": false,
+                  "issuer": null,
+                  "issuerName": null,
+                  "issuerPath": null,
+                  "failed": false,
+                  "errors": 0,
+                  "warnings": 0,
+                  "id": null,
+                  "issuerId": null,
+                  "chunks": [],
+                  "assets": [],
+                  "reasons": [],
+                  "usedExports": [],
+                  "providedExports": [],
+                  "optimizationBailout": [
+                    "Statement (ExpressionStatement) with side effects in source code at 4:0-15:3"
+                  ],
+                  "depth": 0,
+                  "source": "import fs from \"fs\";\nimport path from \"path\";\n\nit(\"should place the module correctly\", async () => {\n\tconst { moduleA, moduleB, moduleC } = await import(\"./chunk\");\n\texpect(fs.readFileSync(path.resolve(__dirname, \"a.js\"), \"utf-8\")).toContain(\n\t\tmoduleA\n\t);\n\texpect(fs.readFileSync(path.resolve(__dirname, \"b.js\"), \"utf-8\")).toContain(\n\t\tmoduleB\n\t);\n\texpect(\n\t\tfs.readFileSync(path.resolve(__dirname, \"runtime.js\"), \"utf-8\")\n\t).toContain(moduleC);\n});\n"
+                },
+                {
+                  "type": "module",
+                  "moduleType": "javascript/dynamic",
+                  "layer": null,
+                  "size": 42,
+                  "sizes": {
+                    "javascript": 42
+                  },
+                  "built": true,
+                  "codeGenerated": false,
+                  "buildTimeExecuted": false,
+                  "cached": false,
+                  "identifier": "external node-commonjs \"fs\"",
+                  "name": "external \"fs\"",
+                  "nameForCondition": null,
+                  "index": 2,
+                  "preOrderIndex": 2,
+                  "index2": 1,
+                  "postOrderIndex": 1,
+                  "optional": false,
+                  "orphan": false,
+                  "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "issuerName": "./entryB.js",
+                  "issuerPath": [
+                    {
+                      "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "name": "./entryB.js",
+                      "id": null
+                    }
+                  ],
+                  "failed": false,
+                  "errors": 0,
+                  "warnings": 0,
+                  "id": null,
+                  "issuerId": null,
+                  "chunks": [],
+                  "assets": [],
+                  "reasons": [
+                    {
+                      "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "module": "./entryB.js",
+                      "moduleName": "./entryB.js",
+                      "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "resolvedModule": "./entryB.js",
+                      "type": "harmony side effect evaluation",
+                      "active": true,
+                      "explanation": "",
+                      "userRequest": "fs",
+                      "loc": "1:0-20",
+                      "moduleId": null,
+                      "resolvedModuleId": null
+                    },
+                    {
+                      "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "module": "./entryB.js",
+                      "moduleName": "./entryB.js",
+                      "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "resolvedModule": "./entryB.js",
+                      "type": "harmony import specifier",
+                      "active": true,
+                      "explanation": "",
+                      "userRequest": "fs",
+                      "loc": "6:8-23",
+                      "moduleId": null,
+                      "resolvedModuleId": null
+                    },
+                    {
+                      "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "module": "./entryB.js",
+                      "moduleName": "./entryB.js",
+                      "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "resolvedModule": "./entryB.js",
+                      "type": "harmony import specifier",
+                      "active": true,
+                      "explanation": "",
+                      "userRequest": "fs",
+                      "loc": "9:8-23",
+                      "moduleId": null,
+                      "resolvedModuleId": null
+                    },
+                    {
+                      "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "module": "./entryB.js",
+                      "moduleName": "./entryB.js",
+                      "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "resolvedModule": "./entryB.js",
+                      "type": "harmony import specifier",
+                      "active": true,
+                      "explanation": "",
+                      "userRequest": "fs",
+                      "loc": "13:2-17",
+                      "moduleId": null,
+                      "resolvedModuleId": null
+                    }
+                  ],
+                  "usedExports": true,
+                  "providedExports": null,
+                  "optimizationBailout": [
+                    "ModuleConcatenation bailout: List of module exports is dynamic (other exports: maybe provided (runtime-defined) and maybe used in runtime (runtime-defined))"
+                  ],
+                  "depth": 1
+                },
+                {
+                  "type": "module",
+                  "moduleType": "javascript/dynamic",
+                  "layer": null,
+                  "size": 42,
+                  "sizes": {
+                    "javascript": 42
+                  },
+                  "built": true,
+                  "codeGenerated": false,
+                  "buildTimeExecuted": false,
+                  "cached": false,
+                  "identifier": "external node-commonjs \"path\"",
+                  "name": "external \"path\"",
+                  "nameForCondition": null,
+                  "index": 3,
+                  "preOrderIndex": 3,
+                  "index2": 2,
+                  "postOrderIndex": 2,
+                  "optional": false,
+                  "orphan": false,
+                  "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "issuerName": "./entryB.js",
+                  "issuerPath": [
+                    {
+                      "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "name": "./entryB.js",
+                      "id": null
+                    }
+                  ],
+                  "failed": false,
+                  "errors": 0,
+                  "warnings": 0,
+                  "id": null,
+                  "issuerId": null,
+                  "chunks": [],
+                  "assets": [],
+                  "reasons": [
+                    {
+                      "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "module": "./entryB.js",
+                      "moduleName": "./entryB.js",
+                      "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "resolvedModule": "./entryB.js",
+                      "type": "harmony side effect evaluation",
+                      "active": true,
+                      "explanation": "",
+                      "userRequest": "path",
+                      "loc": "2:0-24",
+                      "moduleId": null,
+                      "resolvedModuleId": null
+                    },
+                    {
+                      "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "module": "./entryB.js",
+                      "moduleName": "./entryB.js",
+                      "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "resolvedModule": "./entryB.js",
+                      "type": "harmony import specifier",
+                      "active": true,
+                      "explanation": "",
+                      "userRequest": "path",
+                      "loc": "6:24-36",
+                      "moduleId": null,
+                      "resolvedModuleId": null
+                    },
+                    {
+                      "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "module": "./entryB.js",
+                      "moduleName": "./entryB.js",
+                      "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "resolvedModule": "./entryB.js",
+                      "type": "harmony import specifier",
+                      "active": true,
+                      "explanation": "",
+                      "userRequest": "path",
+                      "loc": "9:24-36",
+                      "moduleId": null,
+                      "resolvedModuleId": null
+                    },
+                    {
+                      "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "module": "./entryB.js",
+                      "moduleName": "./entryB.js",
+                      "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                      "resolvedModule": "./entryB.js",
+                      "type": "harmony import specifier",
+                      "active": true,
+                      "explanation": "",
+                      "userRequest": "path",
+                      "loc": "13:18-30",
+                      "moduleId": null,
+                      "resolvedModuleId": null
+                    }
+                  ],
+                  "usedExports": true,
+                  "providedExports": null,
+                  "optimizationBailout": [
+                    "ModuleConcatenation bailout: List of module exports is dynamic (other exports: maybe provided (runtime-defined) and maybe used in runtime (runtime-defined))"
+                  ],
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 144,
+              "sizes": {
+                "javascript": 144
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "name": "./chunk.js",
+              "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "index": 4,
+              "preOrderIndex": 4,
+              "index2": 7,
+              "postOrderIndex": 7,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "issuerName": "./entryB.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "name": "./entryB.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 632,
+              "issuerId": null,
+              "chunks": [
+                "chunk_js"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js|18f240ebb4cf01706f74b7137b5cff2e",
+                  "module": "./entryB.js + 2 modules",
+                  "moduleName": "./entryB.js + 2 modules",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "resolvedModule": "./entryB.js",
+                  "type": "import()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./chunk",
+                  "loc": "5:45-62",
+                  "moduleId": 728,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "moduleA",
+                "moduleB",
+                "moduleC"
+              ],
+              "providedExports": [
+                "moduleA",
+                "moduleB",
+                "moduleC"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Cannot concat with ./moduleA.js: Module ./moduleA.js is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) a)",
+                "ModuleConcatenation bailout: Cannot concat with ./moduleB.js: Module ./moduleB.js is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) b)",
+                "ModuleConcatenation bailout: Cannot concat with ./moduleC.js: Module ./moduleC.js is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) runtime)"
+              ],
+              "depth": 1,
+              "source": "export { default as moduleA } from \"./moduleA\";\nexport { default as moduleB } from \"./moduleB\";\nexport { default as moduleC } from \"./moduleC\";\n"
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 35,
+              "sizes": {
+                "javascript": 35
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/moduleA.js",
+              "name": "./moduleA.js",
+              "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/moduleA.js",
+              "index": 5,
+              "preOrderIndex": 5,
+              "index2": 4,
+              "postOrderIndex": 4,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "issuerName": "./chunk.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "name": "./entryB.js",
+                  "id": null
+                },
+                {
+                  "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "name": "./chunk.js",
+                  "id": 632
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 956,
+              "issuerId": 632,
+              "chunks": [
+                "a"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "module": "./chunk.js",
+                  "moduleName": "./chunk.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "resolvedModule": "./chunk.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./moduleA",
+                  "loc": "1:0-47",
+                  "moduleId": 632,
+                  "resolvedModuleId": 632
+                },
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "module": "./chunk.js",
+                  "moduleName": "./chunk.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "resolvedModule": "./chunk.js",
+                  "type": "harmony export imported specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./moduleA",
+                  "loc": "1:0-47",
+                  "moduleId": 632,
+                  "resolvedModuleId": 632
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export default \"This is module a\";\n"
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 35,
+              "sizes": {
+                "javascript": 35
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/moduleB.js",
+              "name": "./moduleB.js",
+              "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/moduleB.js",
+              "index": 6,
+              "preOrderIndex": 6,
+              "index2": 5,
+              "postOrderIndex": 5,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "issuerName": "./chunk.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "name": "./entryB.js",
+                  "id": null
+                },
+                {
+                  "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "name": "./chunk.js",
+                  "id": 632
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 184,
+              "issuerId": 632,
+              "chunks": [
+                "b"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "module": "./chunk.js",
+                  "moduleName": "./chunk.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "resolvedModule": "./chunk.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./moduleB",
+                  "loc": "2:0-47",
+                  "moduleId": 632,
+                  "resolvedModuleId": 632
+                },
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "module": "./chunk.js",
+                  "moduleName": "./chunk.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "resolvedModule": "./chunk.js",
+                  "type": "harmony export imported specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./moduleB",
+                  "loc": "2:0-47",
+                  "moduleId": 632,
+                  "resolvedModuleId": 632
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export default \"This is module b\";\n"
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 35,
+              "sizes": {
+                "javascript": 35
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/moduleC.js",
+              "name": "./moduleC.js",
+              "nameForCondition": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/moduleC.js",
+              "index": 7,
+              "preOrderIndex": 7,
+              "index2": 6,
+              "postOrderIndex": 6,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+              "issuerName": "./chunk.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+                  "name": "./entryB.js",
+                  "id": null
+                },
+                {
+                  "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "name": "./chunk.js",
+                  "id": 632
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 376,
+              "issuerId": 632,
+              "chunks": [
+                "runtime"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "module": "./chunk.js",
+                  "moduleName": "./chunk.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "resolvedModule": "./chunk.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./moduleC",
+                  "loc": "3:0-47",
+                  "moduleId": 632,
+                  "resolvedModuleId": 632
+                },
+                {
+                  "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "module": "./chunk.js",
+                  "moduleName": "./chunk.js",
+                  "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/chunk.js",
+                  "resolvedModule": "./chunk.js",
+                  "type": "harmony export imported specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./moduleC",
+                  "loc": "3:0-47",
+                  "moduleId": 632,
+                  "resolvedModuleId": 632
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "export default \"This is module c\";\n"
+            }
+          ],
+          "size": 785,
+          "sizes": {
+            "javascript": 785
+          }
+        }
+      ],
+      "size": 4210,
+      "sizes": {
+        "runtime": 3425,
+        "javascript": 785
+      }
+    },
+    {
+      "type": "orphan modules",
+      "orphan": true,
+      "children": [
+        {
+          "type": "module",
+          "moduleType": "javascript/dynamic",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "external node-commonjs \"fs\"",
+          "name": "external \"fs\"",
+          "nameForCondition": null,
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "optional": false,
+          "orphan": true,
+          "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+          "issuerName": "./entryB.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "name": "./entryB.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "module": "./entryB.js",
+              "moduleName": "./entryB.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "resolvedModule": "./entryB.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "fs",
+              "loc": "1:0-20",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "module": "./entryB.js",
+              "moduleName": "./entryB.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "resolvedModule": "./entryB.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "fs",
+              "loc": "6:8-23",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "module": "./entryB.js",
+              "moduleName": "./entryB.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "resolvedModule": "./entryB.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "fs",
+              "loc": "9:8-23",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "module": "./entryB.js",
+              "moduleName": "./entryB.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "resolvedModule": "./entryB.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "fs",
+              "loc": "13:2-17",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: List of module exports is dynamic (other exports: maybe provided (runtime-defined) and maybe used in runtime (runtime-defined))"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/dynamic",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "external node-commonjs \"path\"",
+          "name": "external \"path\"",
+          "nameForCondition": null,
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "optional": false,
+          "orphan": true,
+          "issuer": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+          "issuerName": "./entryB.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "name": "./entryB.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "module": "./entryB.js",
+              "moduleName": "./entryB.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "resolvedModule": "./entryB.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "path",
+              "loc": "2:0-24",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "module": "./entryB.js",
+              "moduleName": "./entryB.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "resolvedModule": "./entryB.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "path",
+              "loc": "6:24-36",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "module": "./entryB.js",
+              "moduleName": "./entryB.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "resolvedModule": "./entryB.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "path",
+              "loc": "9:24-36",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "module": "./entryB.js",
+              "moduleName": "./entryB.js",
+              "resolvedModuleIdentifier": "/Users/bytedance/sources/bundler-playground/webpack/depend-on-treeshaking/entryB.js",
+              "resolvedModule": "./entryB.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "path",
+              "loc": "13:18-30",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: List of module exports is dynamic (other exports: maybe provided (runtime-defined) and maybe used in runtime (runtime-defined))"
+          ],
+          "depth": 1
+        }
+      ],
+      "size": 84,
+      "sizes": {
+        "javascript": 84
+      }
+    }
+  ],
+  "entrypoints": {
+    "a": {
+      "name": "a",
+      "chunks": [
+        "runtime",
+        "a"
+      ],
+      "assets": [
+        {
+          "name": "runtime.js",
+          "size": 6955
+        },
+        {
+          "name": "a.js",
+          "size": 736
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 7691,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "b": {
+      "name": "b",
+      "chunks": [
+        "b"
+      ],
+      "assets": [
+        {
+          "name": "b.js",
+          "size": 1948
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1948,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "a": {
+      "name": "a",
+      "chunks": [
+        "runtime",
+        "a"
+      ],
+      "assets": [
+        {
+          "name": "runtime.js",
+          "size": 6955
+        },
+        {
+          "name": "a.js",
+          "size": 736
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 7691,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "b": {
+      "name": "b",
+      "chunks": [
+        "b"
+      ],
+      "assets": [
+        {
+          "name": "b.js",
+          "size": 1948
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1948,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": []
+}
