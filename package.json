@@ -6,9 +6,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@rspack/core": "^0.5.5",
-    "@rspack/cli": "^0.5.5",
-    "webpack": "^5.90.1",
-    "webpack-cli": "^5.1.4"
+    "@rspack/core": "latest",
+    "@rspack/cli": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
   }
 }

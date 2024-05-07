@@ -1,0 +1,9 @@
+{
+  "name": "html-plugin-favicon",
+  "scripts": {
+    "dev": "webpack serve"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "5.6.0"
+  }
+}
