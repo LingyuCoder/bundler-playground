@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "rc-form-lib": "workspace:*"
+  }
+}

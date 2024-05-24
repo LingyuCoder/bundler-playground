@@ -1,0 +1,10 @@
+{
+  "name": "rc-form-lib-webpack",
+  "version": "1.0.1",
+  "main": "index.js",
+  "module": "index.js",
+  "dependencies": {
+    "rc-form-hooks": "1.0.1"
+  },
+  "type": "module"
+}
