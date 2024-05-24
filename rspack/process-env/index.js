@@ -10,3 +10,28 @@
     default:
       console.log(2);
   }
+
+// wrong
+// (() => { // webpackBootstrap
+//   var __webpack_exports__ = {};
+//   switch ('production') {
+//     case "production":
+//       if (aaa === 1) {
+//         console.log(1);
+//         break;
+//       }
+//   }
+// })();
+
+// expect
+// (() => { // webpackBootstrap
+//   var __webpack_exports__ = {};
+//   switch ('production') {
+//     case "production":
+//       if (aaa === 1) {
+//         console.log(1);
+//         break;
+//       }
+//       console.log(2);
+//   }
+// })();
