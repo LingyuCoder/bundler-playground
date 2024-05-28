@@ -111,6 +111,15 @@ importers:
 
   webpack/custom-runtime-module: {}
 
+  webpack/extract-css-camel-case:
+    dependencies:
+      css-loader:
+        specifier: 7.1.2
+        version: 7.1.2(@rspack/core@0.7.0-beta.0-canary-5ddb34f-20240520023643)(webpack@5.91.0)
+      mini-css-extract-plugin:
+        specifier: 2.9.0
+        version: 2.9.0(webpack@5.91.0)
+
   webpack/html-plugin-favicon:
     devDependencies:
       html-webpack-plugin:
@@ -3790,6 +3799,30 @@ packages:
       webpack: 5.91.0(webpack-cli@5.1.4)
     dev: false
 
+  /css-loader@7.1.2(@rspack/core@0.7.0-beta.0-canary-5ddb34f-20240520023643)(webpack@5.91.0):
+    resolution: {integrity: sha512-6WvYYn7l/XEGN8Xu2vWFt9nVzrCn39vKyTEFf/ExEyoksJjjSZV/0/35XPlMbpnr6VGhZIUg5yJrL8tGfes/FA==}
+    engines: {node: '>= 18.12.0'}
+    peerDependencies:
+      '@rspack/core': 0.x || 1.x
+      webpack: ^5.27.0
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
+      webpack:
+        optional: true
+    dependencies:
+      '@rspack/core': 0.7.0-beta.0-canary-5ddb34f-20240520023643
+      icss-utils: 5.1.0(postcss@8.4.38)
+      postcss: 8.4.38
+      postcss-modules-extract-imports: 3.1.0(postcss@8.4.38)
+      postcss-modules-local-by-default: 4.0.5(postcss@8.4.38)
+      postcss-modules-scope: 3.2.0(postcss@8.4.38)
+      postcss-modules-values: 4.0.0(postcss@8.4.38)
+      postcss-value-parser: 4.2.0
+      semver: 7.6.2
+      webpack: 5.91.0(webpack-cli@5.1.4)
+    dev: false
+
   /css-select@4.3.0:
     resolution: {integrity: sha512-wPpOYtnsVontu2mODhA19JrqWxNsfdatRKd64kmpRbQgh1KtItko5sTnEpPdpSaJszTOhEMlF/RPz28qj4HqhQ==}
     dependencies:
@@ -5333,6 +5366,17 @@ packages:
   /mimic-fn@4.0.0:
     resolution: {integrity: sha512-vqiC06CuhBTUdZH+RYl8sFrL096vA45Ok5ISO6sE/Mr1jRbGH4Csnhi8f3wKVl7x8mO4Au7Ir9D3Oyv1VYMFJw==}
     engines: {node: '>=12'}
+    dev: false
+
+  /mini-css-extract-plugin@2.9.0(webpack@5.91.0):
+    resolution: {integrity: sha512-Zs1YsZVfemekSZG+44vBsYTLQORkPMwnlv+aehcxK/NLKC+EGhDB39/YePYYqx/sTk6NnYpuqikhSn7+JIevTA==}
+    engines: {node: '>= 12.13.0'}
+    peerDependencies:
+      webpack: ^5.0.0
+    dependencies:
+      schema-utils: 4.2.0
+      tapable: 2.2.1
+      webpack: 5.91.0(webpack-cli@5.1.4)
     dev: false
 
   /minimalistic-assert@1.0.1:
