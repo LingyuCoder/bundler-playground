@@ -1,0 +1,17 @@
+{
+  "name": "example-react-example-css-extract",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "rspack build",
+    "dev": "rspack serve"
+  },
+  "dependencies": {
+    "@rspack/core": "^0.7.0",
+    "css-loader": "7.1.2"
+  },
+  "devDependencies": {
+  }
+}
