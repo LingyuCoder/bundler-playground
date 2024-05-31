@@ -30,6 +30,15 @@ importers:
         specifier: latest
         version: 5.1.4(webpack@5.91.0)
 
+  rspack/additional-tree-runtime-requirements:
+    dependencies:
+      '@rspack/core':
+        specifier: ^0.7.0
+        version: 0.7.0
+      css-loader:
+        specifier: 7.1.2
+        version: 7.1.2(@rspack/core@0.7.0)(webpack@5.91.0)
+
   rspack/context-module-svgr:
     dependencies:
       '@swc/helpers':
@@ -54,6 +63,12 @@ importers:
       css-loader:
         specifier: 7.1.2
         version: 7.1.2(@rspack/core@0.7.0)(webpack@5.91.0)
+
+  rspack/incremental-assets:
+    dependencies:
+      css-loader:
+        specifier: 7.1.2
+        version: 7.1.2(@rspack/core@0.7.0-beta.0-canary-5ddb34f-20240520023643)(webpack@5.91.0)
 
   rspack/old-tree-shaking-sideeffects: {}
 

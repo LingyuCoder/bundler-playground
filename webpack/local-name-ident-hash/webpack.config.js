@@ -1,10 +1,11 @@
-/**@type {import("@rspack/cli").Configuration}*/
+/**@type {import("webpack").Configuration}*/
 module.exports = {
-	mode: "development",
+	mode: "production",
 	entry: {
 		main: "./index.js"
 	},
 	optimization: {
+		moduleIds: "natural",
 		concatenateModules: false,
 		minimize: false
 	},
