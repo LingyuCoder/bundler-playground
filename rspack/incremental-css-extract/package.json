@@ -1,0 +1,7 @@
+{
+  "name": "incremental-assets",
+  "version": "0.0.1",
+  "dependencies": {
+    "css-loader": "7.1.2"
+  }
+}
