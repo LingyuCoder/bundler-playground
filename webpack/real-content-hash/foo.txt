@@ -1,0 +1,3 @@
+String: hello\n
+Decimal values: 104 101 108 108 111 10
+Hexadecimal values: 68 65 6c 6c 6f 0a

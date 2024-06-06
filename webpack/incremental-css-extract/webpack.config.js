@@ -1,4 +1,5 @@
-const rspack = require("@rspack/core");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const webpack = require("webpack");
 const path = require("path");
 
 class Plugin {
@@ -38,7 +39,7 @@ module.exports = {
         test: /\.css$/,
         use: [
           {
-            loader: rspack.CssExtractRspackPlugin.loader
+            loader: MiniCssExtractPlugin.loader
           },
           "css-loader",
           {
@@ -61,10 +62,10 @@ module.exports = {
   },
   plugins: [
     new Plugin(),
-    new rspack.CssExtractRspackPlugin({
+    new MiniCssExtractPlugin({
       filename: "[name].css"
     }),
-    new rspack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin()
   ],
   optimization: {
     minimize: false,

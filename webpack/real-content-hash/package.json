@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@node-rs/xxhash": "1.7.3"
+  }
+}

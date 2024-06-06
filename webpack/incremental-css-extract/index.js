@@ -1,4 +1,4 @@
 import * as styles from "./color.css";
 
 // modify here
-console.log(styles + 5);
+console.log(styles + 4);
