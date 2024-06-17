@@ -2,3 +2,4 @@ node_modules
 dist
 
 !rspack/resolve-node-modules-failed/node_modules
+!rspack/*/node_modules

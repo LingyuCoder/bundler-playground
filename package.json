@@ -11,6 +11,7 @@
     "@rspack/cli": "0.7.0-beta.0-canary-5ddb34f-20240520023643",
     "@rspack/plugin-minify": "0.7.0-beta.0-canary-5ddb34f-20240520023643",
     "@rspack/plugin-react-refresh": "0.7.0-beta.0-canary-5ddb34f-20240520023643",
+    "swc-loader": "0.2.6",
     "webpack": "latest",
     "webpack-cli": "latest"
   }
