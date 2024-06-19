@@ -1,0 +1,8 @@
+.test{
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  white-space:normal!important;
+}
