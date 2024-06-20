@@ -1,8 +1,13 @@
-const { CssExtractRspackPlugin } = require("@rspack/core");
+const { CssExtractRspackPlugin, DefinePlugin } = require("@rspack/core");
 
 /** @type {import("@rspack/core").Configuration} */
 module.exports = {
 	entry: "./index.js",
+	devServer: {
+		devMiddleware: {
+			writeToDisk: true
+		}
+	},
 	module: {
 		rules: [
 			{
@@ -14,8 +19,14 @@ module.exports = {
 	plugins: [
 		new CssExtractRspackPlugin({
 			filename: "[name].css"
+		}),
+		new DefinePlugin({
+			IS_OVERSEA: false
 		})
 	],
+	optimization: {
+		minimize: false
+	},
 	experiments: {
 		css: false
 	},
