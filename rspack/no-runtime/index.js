@@ -1,2 +1,2 @@
 
-console.log(eval("global[`__RSPACK__`]"));
+console.log(eval("__webpack_require__.ruid"));

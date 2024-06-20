@@ -1,0 +1,17 @@
+{
+  "name": "css-extract-stats",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "rspack build",
+    "dev": "rspack serve"
+  },
+  "dependencies": {
+    "css-loader": "7.1.2",
+    "semantic-ui-css": "2.5.0"
+  },
+  "devDependencies": {
+  }
+}

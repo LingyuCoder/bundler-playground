@@ -11,5 +11,11 @@ module.exports = {
 		minimize: false,
 		concatenateModules: false
 	},
-	
+	experiments: {
+		rspackFuture: {
+			bundlerInfo: {
+				bundler: "webpack"
+			}
+		}
+	}
 };
