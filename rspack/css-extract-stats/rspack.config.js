@@ -3,11 +3,19 @@ const { CssExtractRspackPlugin } = require("@rspack/core");
 /** @type {import("@rspack/core").Configuration} */
 module.exports = {
 	entry: "./index.js",
+	output: {
+		publicPath: '/',
+	},
+	devtool: "source-map",
 	module: {
 		rules: [
 			{
 				test: /\.css$/,
 				use: [CssExtractRspackPlugin.loader, "css-loader"]
+			},
+			{
+				test: /\.png$/,
+				type: "asset/resource"
 			}
 		]
 	},
@@ -16,10 +24,14 @@ module.exports = {
 			filename: "[name].css"
 		})
 	],
+	optimization: {
+		minimize: true
+	},
 	experiments: {
 		css: false
 	},
 	stats: {
-		modules: true,
+		all: true,
+		// errorStack: false
 	}
 };

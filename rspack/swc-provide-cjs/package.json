@@ -1,0 +1,8 @@
+{
+  "name": "swc-provide-cjs",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@swc/helpers": "^0.5.11",
+    "swc-loader": "0.2.4"
+  }
+}

@@ -1,0 +1,1 @@
+{"logging":{},"time":172,"errors":[{"message":"  \u001b[31m×\u001b[0m Resolve error: Can't resolve '/Users/bytedance/sources/bundler-playground/webpack/css-extract-stats/src/index.js' in '/Users/bytedance/sources/bundler-playground/webpack/css-extract-stats'\n\u001b[0m"}],"errorsCount":1,"warnings":[],"warningsCount":0}

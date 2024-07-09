@@ -2,3 +2,5 @@ node_modules
 dist
 
 !rspack/resolve-node-modules-failed/node_modules
+!rspack/concatenated-module-exports/node_modules
+!rspack/find-target-failed/node_modules
