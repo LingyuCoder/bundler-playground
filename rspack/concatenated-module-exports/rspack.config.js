@@ -6,6 +6,8 @@ const config = {
   optimization: {
     minimize: false,
 
+    // rspack build && node dist/main.js
+
     // correct output `1`
     // providedExports: false,
     // usedExports: false,
