@@ -5,8 +5,18 @@ const config = {
   entry: './index.js',
   optimization: {
     minimize: false,
-    // providedExports: false, // enable this line will panic
-    usedExports: false, // enable this line will generate wrong exports
+
+    // correct output `1`
+    // providedExports: false,
+    // usedExports: false,
+
+    // wrong output `{ QueryClient: 1 }`
+    providedExports: true,
+    usedExports: false,
+
+    // panic
+    // providedExports: false,
+    // usedExports: true,
   }
 };
 module.exports = config;
