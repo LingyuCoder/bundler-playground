@@ -34,4 +34,10 @@ function App() {
   );
 }
 
+if (module.hot) {
+  module.hot.accept('./App.css', () => {
+    console.log('accepted');
+  });
+}
+
 export default App;

@@ -61,6 +61,9 @@ const config = {
       },
     ],
   },
+  experiments: {
+    css: true
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './index.html',
